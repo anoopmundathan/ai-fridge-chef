@@ -169,20 +169,6 @@ cd frontend
 npm start
 ```
 
-## 🚢 Deployment
-
-### Backend
-- Deploy to services like Render, Railway, or AWS Lambda
-- Set environment variables in your hosting platform
-- Use `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
-
-### Frontend
-```bash
-cd frontend
-npm run build
-```
-Deploy the `build/` folder to Vercel, Netlify, or any static hosting service.
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -194,15 +180,3 @@ Deploy the `build/` folder to Vercel, Netlify, or any static hosting service.
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- OpenAI for GPT-4o API
-- FastAPI for the excellent Python web framework
-- React team for the frontend library
-
-## 📧 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter)
-
-Project Link: [https://github.com/YOUR_USERNAME/ai-fridge-chef](https://github.com/YOUR_USERNAME/ai-fridge-chef)
